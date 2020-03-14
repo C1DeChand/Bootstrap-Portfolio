@@ -20,23 +20,21 @@
                     <span class="navbar-brand mb-0 h1" id="name">Cameron DeChand</span>
                 </nav>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navlinks" aria-label="Toggle navigation">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="#navLinks">
-                        <div class="navbar-nav ml-auto">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#contactInfo" style="color: black; font-weight: 600;">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">About</a>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#contactInfo" style="color: black; font-weight: 600;">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
             </div>
@@ -44,20 +42,25 @@
         <!-- Main Content -->
         <div class="row">
             <div class="col-12">
-                <div class="card" id="back-card">
+                <div class="card" id="back-card-contact">
                     <div class="card-body">
                         <h1 class="card-title" id="header1">Contact Me</h1>
                         <hr>
-                        <div class="row">
-                            <div class="col-12">
-                                <img src="./assets/images/mountains.jpg" class="card-img float-left" alt="Mountains." style="width: 15rem; margin-right: 1rem;">
-                                <p class="card-text" id="cardText">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    <br><br>
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                            </div>
+                            <input class="btn btn-primary" id="subBtn" type="submit" value="Submit">
+                        </form>
                     </div>
                 </div>
             </div>

@@ -90,7 +90,17 @@ body {
 
 /* contact.html */
 
+#back-card-contact {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-bottom: 1rem;
+    width: 51rem;
+}
 
+#subBtn {
+    background-color:  rgb(134, 79, 134);
+    color: white;
+}
 
 /* media querys */
 
