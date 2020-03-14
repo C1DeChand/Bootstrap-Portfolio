@@ -9,69 +9,71 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
           crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>TK1418</title>
+    <title>C1DeChand: About</title>
 </head>
 <body>
-    <div class="container">
-
-        <div class="row">
-            <!-- <div class="col-md-4" class="navbox">
-                <h1 class="navhead">Cameron DeChand</h1>
-            </div> -->
-            <div class="col-md-12">
+    <div class="container-fluid">
+        <!-- Navbars -->
+        <div class="row fixed-top">
+            <div class="col-12">
                 <nav class="navbar navbar-expand-lg navbar-dark float-left" id="navname">
-                    <div class="container">
-                        <span class="navbar-brand mb-0 h1">Cameron DeChand</span>
-                    </div>
-                  </nav>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-brand mb-0 h1" id="name">Cameron DeChand</span>
+                </nav>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navlinks" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#about-me">About</a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                      </div>
+                    <div class="collapse navbar-collapse" id="#navLinks">
+                        <div class="navbar-nav ml-auto">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#about-me" style="color: black; font-weight: 600;">About</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                  </nav>
+                </nav>
             </div>
         </div>
-    </div>
-    <!-- <img src="./assets/images/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg" class="img-fluid" alt="Responsive image"> -->
-    <!-- <p class="card-text">Once upon a time, there was a tire technician. He dreamed of finding a career that was balanced between fun, challenging, and also paid a living wage (in Seattle, yeah right...).</p> -->
-    <div class="container">
+        <!-- Main Content -->
         <div class="row">
-            <div class="col-md-12" id="#about-me">
-                <div class="card bg-dark text-black">
-                    <img src="./assets/images/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg" class="card-img img-responsive" alt="yellow matrix.">
-                    <div class="card-img-overlay">
-                        <div class="card" style="width: 40rem; height: 35rem;">
-                            <div class="card-body">
-                                <h1 class="card-title">About Me</h1>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <img src="./assets/images/mountains.jpg" class="card-img float-left" alt="Mountains." style="width: 15rem; margin-right: 1rem;">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    </div>
-                                </div>
+            <div class="col-12">
+                <div class="card" id="back-card-index">
+                    <div class="card-body">
+                        <h1 class="card-title" id="header1">About Me</h1>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="./assets/images/mountains.jpg" class="card-img float-left" alt="Mountains." style="width: 15rem; margin-right: 1rem;">
+                                <p class="card-text" id="cardText">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    <br><br>
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
                             </div>
                         </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="row fixed-bottom">
+            <div class="col-12">
+                <hr id="hr-bar">
+                <nav class="navbar navbar-dark bg-dark" id="copyrightBar">
+                    <span class="navbar-text mx-auto" id="copyrightText">© Copyright.</span>
+                </nav>
             </div>
         </div>
     </div>
-
-    <div class="Container">
-        <div class="row">
-            <div class="col-md-12">
-                <h6 id="copyright">Copyright</h6>
-            </div>
-        </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

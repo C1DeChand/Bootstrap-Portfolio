@@ -1,12 +1,147 @@
-/* index.html */
+/* Shared */
+
 body {
-    background-color:white;
+    background-image: url("../images/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
 }
 
 #navname {
-    background-color: teal;
+    background-color: rgb(134, 79, 134);
 }
 
-#copyright {
-    text-align: center;
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 170%;
+    padding: 0%;
+    background-color:  rgb(134, 79, 134);
+    color: white;
+}
+
+#back-card {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding-bottom: 1rem;
+    width: 35rem;
+}
+
+#header1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  rgb(134, 79, 134);
+}
+
+#hr-bar {
+    background-color:  rgb(134, 79, 134);
+    margin: 0;
+    margin-top: 10rem;
+    padding: 0.2rem;
+}
+
+#copyrightText {
+    color: rgb(114, 114, 145);
+}
+
+/* index.html */
+
+#back-card-index {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding-bottom: 1rem;
+    width: 35rem;
+}
+
+/* portfolio.html */
+
+#back-card-port {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-bottom: 1rem;
+    width: 51rem;
+}
+
+.portImg {
+    margin: 1rem;
+    border: black;
+}
+
+#portImg1 {
+    float: left;
+}
+
+#portImg2 {
+    float: right;
+}
+
+#portImg3 {
+    float: left;
+}
+
+#portImg4 {
+    float: right;
+}
+
+#portImg5 {
+    float: left;
+}
+
+/* contact.html */
+
+
+
+/* media querys */
+
+@media screen and (max-width: 991px) {
+
+#back-card-index {
+    width: 30rem;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+    
+#back-card-index {
+    width: 25rem;
+}
+
+#back-card-port {
+    width: 26rem;
+}
+
+#portImg2 {
+    float: left;
+}
+
+#portImg4 {
+    float: left;
+}
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+#back-card-index {
+    width: 20rem;
+}
+
+#cardText {
+    float: left;
+}
+
+#back-card-port {
+    width: 26rem;
+}
+
+#portImg2 {
+    float: left;
+}
+
+#portImg4 {
+    float: left;
+}
+    
 }
