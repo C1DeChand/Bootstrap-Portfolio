@@ -77,31 +77,15 @@ body {
     border: black;
 }
 
+.figureCap {
+    margin: 1rem;
+}
+
 #back-card-port {
     margin-top: 10rem;
     margin-bottom: 10rem;
     padding-bottom: 1rem;
     width: 51rem;
-}
-
-#portImg1 {
-    float: left;
-}
-
-#portImg2 {
-    float: right;
-}
-
-#portImg3 {
-    float: left;
-}
-
-#portImg4 {
-    float: right;
-}
-
-#portImg5 {
-    float: left;
 }
 
 /* contact.html */
