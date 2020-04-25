@@ -10,10 +10,6 @@ body {
     margin: 0;
 }
 
-#navname {
-    background-color: rgb(134, 79, 134);
-}
-
 .navbar {
     padding: 0;
 }
@@ -22,6 +18,10 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #f8f9fa;
+}
+
+#navname {
+    background-color: rgb(134, 79, 134);
 }
 
 #name {
@@ -59,6 +59,10 @@ body {
 
 /* index.html */
 
+.links {
+    color: rgb(114, 114, 145);
+}
+
 #back-card-index {
     margin-top: 5rem;
     margin-bottom: 10rem;
@@ -68,36 +72,20 @@ body {
 
 /* portfolio.html */
 
-#back-card-port {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-    padding-bottom: 1rem;
-    width: 51rem;
-}
-
 .portImg {
     margin: 1rem;
     border: black;
 }
 
-#portImg1 {
-    float: left;
+.figureCap {
+    margin: 1rem;
 }
 
-#portImg2 {
-    float: right;
-}
-
-#portImg3 {
-    float: left;
-}
-
-#portImg4 {
-    float: right;
-}
-
-#portImg5 {
-    float: left;
+#back-card-port {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-bottom: 1rem;
+    width: 51rem;
 }
 
 /* contact.html */

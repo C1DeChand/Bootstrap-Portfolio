@@ -1,25 +1,17 @@
-# Bootstrap-Portfolio
- Bootstrap CSS framework based website portfolio.
+# Cameron DeChand - Portfolio
 
-Here you go Ben, you asked for a readme!
+## About:
 
-The HTML is split between 3 files: 
-1. index.html
-2. portfolio.html
-3. contact.html
+This portfolio was created using the bootstrap CSS framework. It was originally the UW Coding Bootcamp homework 2 but evolved beyond the scope of that homework alone. This portfolio has become a display case for projects completed by me that I am rather proud of. As this is updated, it will not just contain coding achievements but other projects I've completed.
 
-There is a single css style sheet:
-1. style.css
+## Breakdown:
 
-There are 7 images:
-1. rene-bohmer-YeUVDKZWSZ4-unsplash.jpg (background img)
-2. mountains.jpg (index.html only)
-3. portImg1 (portfiolo.html only)
-4. portImg2 (portfiolo.html only)
-5. portImg3 (portfiolo.html only)
-6. portImg4 (portfiolo.html only)
-7. portImg5 (portfiolo.html only)
+1. When the page initially loads up. My "About Me" page is displayed with a short bio and links to my GitHub Repo's, Linked In profile, and my (hopefully kept up to date) resume.
+2. To view my projects, simply click the "Portfolio" link in the upper right of the screen on the navbar.
+3. On the portfolio page you will find brief descriptions of the projects I've completed as well as an image link to that project.
+4. For personal contact information. Click the "Contact" link on the navbar.
+5. My email and phone number are listed on the contact page. PLEASE NOTE: I generally do not answer unknown phone numbers, please leave a message and I'll get back to you.
 
-There are comments within each file to express what code represents what section of content.
+## Link:
 
-End of line
+https://c1dechand.github.io/Personal_Portfolio/
