@@ -1,3 +1,44 @@
   
 node_modules
 .env
+React Upgrade
+React Upgrade/portfolio/package-lock.json
+React Upgrade/portfolio/package.json
+React Upgrade/portfolio/public/favicon.ico
+React Upgrade/portfolio/public/index.html
+React Upgrade/portfolio/public/logo192.png
+React Upgrade/portfolio/public/logo512.png
+React Upgrade/portfolio/public/manifest.json
+React Upgrade/portfolio/public/robots.txt
+React Upgrade/portfolio/README.md
+React Upgrade/portfolio/src/App.css
+React Upgrade/portfolio/src/App.js
+React Upgrade/portfolio/src/App.test.js
+React Upgrade/portfolio/src/components/About.js
+React Upgrade/portfolio/src/components/Contact.js
+React Upgrade/portfolio/src/components/Portfolio.js
+React Upgrade/portfolio/src/images/AboutPic.jpg
+React Upgrade/portfolio/src/images/Cameron DeChand Resume.pdf
+React Upgrade/portfolio/src/images/Homework03.png
+React Upgrade/portfolio/src/images/Homework05.png
+React Upgrade/portfolio/src/images/Homework06.png
+React Upgrade/portfolio/src/images/homework13.png
+React Upgrade/portfolio/src/images/projectOne.png
+React Upgrade/portfolio/src/images/projectTwo.png
+React Upgrade/portfolio/src/images/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg
+React Upgrade/portfolio/src/index.css
+React Upgrade/portfolio/src/index.js
+React Upgrade/portfolio/src/logo.svg
+React Upgrade/portfolio/src/serviceWorker.js
+React Upgrade/portfolio/src/setupTests.js
+React Upgrade/src/App.js
+React Upgrade/src/components/About.js
+React Upgrade/src/components/Contact.js
+React Upgrade/src/components/NavTabs.js
+React Upgrade/src/components/pages/About.js
+React Upgrade/src/components/pages/Blog.js
+React Upgrade/src/components/pages/Contact.js
+React Upgrade/src/components/pages/Home.js
+React Upgrade/src/components/pages/Learn.js
+React Upgrade/src/components/Portfolio.js
+React Upgrade/src/index.js
